@@ -10,10 +10,8 @@ import {
 } from 'react-native';
 import PropTypes from 'prop-types';
 import isEqual from 'lodash.isequal';
-import {color} from "../../src/constants/colors";
 import {IconKentRota, MyVideoPlayer} from "../../src/components/functions";
 import {FULL_SCREEN_PIXELS} from "../../src/constants/constants";
-import PointRates from "../../src/components/pointRates";
 
 const PAGE_CHANGE_DELAY = 3000,
     viewPropTypes = ViewPropTypes || View.propTypes;
