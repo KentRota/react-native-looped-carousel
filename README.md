@@ -1,5 +1,5 @@
 # Looped carousel for React Native
-[![NPM version](https://img.shields.io/npm/v/react-native-looped-carousel.svg)](https://www.npmjs.com/package/react-native-looped-carousel)
+[![NPM version](https://img.shields.io/npm/v/react-native-looped-carousel.svg)](https://www.npmjs.com/package/@kentrota/react-native-looped-carousel)
 [![Build Status](https://travis-ci.org/phil-r/react-native-looped-carousel.svg?branch=master)](https://travis-ci.org/phil-r/react-native-looped-carousel)
 [![Dependency Status](https://david-dm.org/phil-r/react-native-looped-carousel.svg)](https://david-dm.org/phil-r/react-native-looped-carousel)
 [![devDependency Status](https://david-dm.org/phil-r/react-native-looped-carousel/dev-status.svg)](https://david-dm.org/phil-r/react-native-looped-carousel?type=dev)
@@ -11,10 +11,15 @@ Based on [react-native framework](https://github.com/facebook/react-native/) by 
 ## Demo
 ![demo gif](https://user-images.githubusercontent.com/577316/37863420-40c62c8c-2f5e-11e8-8eb4-23b8e7ea499e.gif)
 
-## Install
+## Installation
 
-```sh
-npm install react-native-looped-carousel --save
+```
+yarn add @kentrota/react-native-looped-carousel
+```
+
+or
+```
+npm install --save @kentrota/react-native-looped-carousel
 ```
 
 ## Examples
@@ -82,7 +87,7 @@ import {
   View,
   Dimensions,
 } from 'react-native';
-import Carousel from 'react-native-looped-carousel';
+import Carousel from '@kentrota/react-native-looped-carousel';
 
 const { width, height } = Dimensions.get('window');
 

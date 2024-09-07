@@ -1,6 +1,6 @@
 {
-  "name": "react-native-looped-carousel",
-  "version": "0.1.13",
+  "name": "@kentrota/react-native-looped-carousel",
+  "version": "0.0.1",
   "description": "Looped carousel for React Native",
   "author": "Phil Rukin <philipp@rukin.me> (http://rukin.me)",
   "contributors": [
@@ -16,10 +16,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/phil-r/react-native-looped-carousel"
+    "url": "https://github.com/KentRota/react-native-looped-carousel.git"
   },
   "bugs": {
-    "url": "https://github.com/phil-r/react-native-looped-carousel/issues"
+    "url": "https://github.com/KentRota/react-native-looped-carousel/issues"
   },
   "keywords": [
     "react",
